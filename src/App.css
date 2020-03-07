@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+*:focus {outline: none;}
+		
+		.registration ul
+		{
+			 list-style-type:none;
+		}
+		.colon1 input
+		{
+			width:210px;
+			padding-top:6px;
+			margin-left: 5px;
+			height:16px;
+			border-radius: 5px;
+		}
+		.colon1 select
+		{
+			width:210px;
+			padding-top:6px;
+			margin-left: 5px;
+			height:30px;
+			border-radius: 5px;
+		}
+		
+		.substrings
+		{
+		 width:300px;
+		 margin-top: 10px;
+		 margin-left: 5px;
+		 display:inline-block;
+		 padding-top:10px;
+		 font-size: 16pt;
+		}
+		.colon2 label
+		{
+		 width:120px;
+		 margin-top: 10px;
+		 display:inline-block;
+		 padding:6px;
+		 font-size: 11pt;
+		}
+		.colon3 label
+		{
+		 width:130px;
+		 margin-top: 10px;
+		 display:inline-block;
+		 padding:6px;
+		 font-size: 11pt;
+		}
+		.colon2 input
+		{
+		 width:50px;
+		 height:12px;
+		 border-radius: 5px;
+		}
+		.colon3 select
+		{
+		 width:100px;
+		 height:20px;
+		 border-radius: 5px;
+		}
+		.colon4
+		{
+		 width:200px;
+		 margin-top: 20px;
+		 margin-left: -8px;
+		 padding:10px;
+		 font-size: 12pt;
+		}
+		.registration input:focus:invalid, select:focus:invalid
+		{
+			box-shadow: 0 0 3px #00A3FF;
+			border-color: #7ED1FF;
+		}
+		.registration input:required:valid, select:required:valid
+		{
+			box-shadow: 0 0 3px #1CFF77;
+			border-color: #1CFF77;
+		}
+		.sumbit
+		{
+		margin-top: 200px;
+        text-align:center;
+        font-size:30px;
+        padding: 3px 6px;
+        background-color: #4277FF;
+		height:50px;
+        width:350px;		
+        border-radius: 10px;
+        color: #fff;
+		}
+		.sumbit:active
+		{
+        text-align:center;
+        font-size:30px;
+        padding: 3px 6px;
+        background-color: #1657FF;
+		height:50px;
+        width:350px;		
+        border-radius: 10px;
+        color: #fff;
+		}
