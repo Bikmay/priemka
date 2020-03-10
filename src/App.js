@@ -12,7 +12,7 @@ function App() {
             </li>
             <li class="substrings"><label>Ф.И.О</label></li>
 			<li class="colon1">
-                <input type="text" name="Name" value="name" placeholder="Иванов Иван Иванович" required/>
+                <input type="text" name="Name" placeholder="Иванов Иван Иванович" required/>
             </li>
             <li class="substrings"><label>Форма обучения</label></li>
 			<li class="colon1">
@@ -82,6 +82,7 @@ function App() {
 			<li class="colon3">
 				 <label for="priority3">Третий приоритет:</label>
                  <select name="priority3" required>
+				 <option selected disabled></option>
 				 <option value="02.03.03">02.03.03 - Математическое обеспечение и администрирование информационных систем</option>
 				<option value="09.03.01">09.03.01 - Информатика и вычислительная техника</option>
 				<option value="09.03.02">09.03.02 - Информационные системы и технологии</option>
