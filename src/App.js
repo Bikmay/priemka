@@ -12,7 +12,7 @@ function App() {
             </li>
             <li class="substrings"><label>Ф.И.О</label></li>
 			<li class="colon1">
-                <input type="text" name="Name" value="name" placeholder="Иванов Иван Иванович" required/>
+                <input type="text" name="Name" placeholder="Иванов Иван Иванович" required/>
             </li>
             <li class="substrings"><label>Форма обучения</label></li>
 			<li class="colon1">
