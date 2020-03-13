@@ -1,10 +1,10 @@
-'use strict'
- class TableAbitur(){
+'use strict';
+ class TableAbitur{
  	constructor(){}
 
-static ConnectInsertAbitur(let datas){
+static ConnectInsertAbitur( datas){
 	datas[0]='090320';
-	datas[1='Иванов';]
+	datas[1]='Иванов';
 	datas[2]='Пётр';
 	datas[3]='Владимирович';
 	datas[4]='90';
@@ -25,10 +25,10 @@ static ConnectInsertAbitur(let datas){
 	pool.end();}
 }
 
-class TableSpec(){
+class TableSpec{
 constructor(){}
 
-static ConnectInsertSpec(let data1,bals_of_russian,bals_of_math,bals_of_third){
+static ConnectInsertSpec( data1,bals_of_russian,bals_of_math,bals_of_third){
 
 sum=bals_of_russian+bals_of_math+bals_of_third;
 
