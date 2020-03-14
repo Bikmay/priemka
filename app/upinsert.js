@@ -2,16 +2,8 @@
  class TableAbitur{
  	constructor(){}
 
-static ConnectInsertAbitur( datas){
-	datas[0]='090320';
-	datas[1]='Иванов';
-	datas[2]='Пётр';
-	datas[3]='Владимирович';
-	datas[4]='90';
-	datas[5]='85';
-	datas[6]='80';
-	datas[7]='Не требуется';	
-	datas[8]='Бюджетное';
+static ConnectInsertAbitur(let datas[]){
+	
 
 			const {Pool, Client}=require('pg');
 			const connectionString='postgressql://postgres:username@passport:localhost/namedatabase';
@@ -28,12 +20,11 @@ static ConnectInsertAbitur( datas){
 class TableSpec{
 constructor(){}
 
-static ConnectInsertSpec( data1,bals_of_russian,bals_of_math,bals_of_third){
+static ConnectInsertSpec( let data1[]){
 
-sum=bals_of_russian+bals_of_math+bals_of_third;
 
-	data1[0]='entrant_id';
-	data1[1]=sum;
+
+	
 	
 	const {Pool, Client}=require('pg');
 	const connectionString='postgressql://postgres:username@passport:localhost/namedatabase';
