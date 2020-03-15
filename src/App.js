@@ -10,13 +10,13 @@ function App() {
             <li>
                 <font size="6"><h1>Регистрация</h1></font>
             </li>
-            <li class="substrings"><label>Ф.И.О</label></li>
+            <li class="substrings"><label for="Name">Ф.И.О</label></li>
 			<li class="colon1">
-                <input type="text" name="Name" placeholder="Иванов Иван Иванович" required/>
+                <input id="Name" type="text" name="Name" placeholder="Иванов Иван Иванович" required/>
             </li>
-            <li class="substrings"><label>Форма обучения</label></li>
+            <li class="substrings"><label for="Forms">Форма обучения</label></li>
 			<li class="colon1">
-				<select name="Forms" required>
+				<select id="Forms" name="Forms" required>
 				<option selected disabled></option>
 				<option value="form1">Бюджетная</option>
 				<option value="form2">Контрактная</option>
@@ -25,21 +25,21 @@ function App() {
             </li>
             <li class="substrings">Баллы по ЕГЭ за предметы:</li>
 			<li class="colon2">
-				<label>Русский язык:</label>
-				<input type="text" name="RusLan" required/>
+				<label for="RusLan">Русский язык:</label>
+				<input id="RusLan" type="text" name="RusLan" required/>
 			</li>
 			<li class="colon2">
-				<label>Математика:</label>
-				<input type="text" name="Maths" required/>
+				<label for="Maths">Математика:</label>
+				<input id="Maths" type="text" name="Maths" required/>
 			</li>
 			<li class="colon2">
-				<label>Третий предмет:</label>
-				<input type="text" name="ThirdSubject" required/>
+				<label for="ThirdSubject">Третий предмет:</label>
+				<input id="ThirdSubject" type="text" name="ThirdSubject" required/>
 			</li>
 			<li class="substrings">Приоритеты поступления</li>
 			<li class="colon3">
-                 <label>Первый приоритет</label>
-                 <select name="priority1" required>
+                 <label for="priority1">Первый приоритет</label>
+                 <select id="priority1" name="priority1" required>
 				<option selected disabled></option>
 				<option value="02.03.03">02.03.03 - Математическое обеспечение и администрирование информационных систем</option>
 				<option value="09.03.01">09.03.01 - Информатика и вычислительная техника</option>
@@ -59,8 +59,8 @@ function App() {
 			   </select>
 			</li>
 			<li class="colon3">
-				 <label>Второй приоритет</label>
-                 <select name="priority2" required>
+				 <label for="priority2">Второй приоритет</label>
+                 <select id="priority2" name="priority2" required>
 				 <option selected disabled></option>
 				<option value="02.03.03">02.03.03 - Математическое обеспечение и администрирование информационных систем</option>
 				<option value="09.03.01">09.03.01 - Информатика и вычислительная техника</option>
@@ -81,7 +81,7 @@ function App() {
 			</li>
 			<li class="colon3">
 				 <label for="priority3">Третий приоритет:</label>
-                 <select name="priority3" required>
+                 <select id="priority3" name="priority3" required>
 				 <option selected disabled></option>
 				 <option value="02.03.03">02.03.03 - Математическое обеспечение и администрирование информационных систем</option>
 				<option value="09.03.01">09.03.01 - Информатика и вычислительная техника</option>
@@ -101,11 +101,11 @@ function App() {
 			    </select>
             </li>
 			<li  class="colon4">
-				<input type="checkbox" name="hostel"/>
-				<label>нуждаюсь в общежитии</label>
+				<input id="hostel" type="checkbox" name="hostel"/>
+				<label for="hostel">нуждаюсь в общежитии</label>
 			</li>
 			<li>
-				<input class="sumbit" type="submit" value="Зарегистрироваться"/>
+				<input id="sambitA" class="sumbit" type="submit" value="Зарегистрироваться"/>
 			</li>
 		</ul>
 		</form>
